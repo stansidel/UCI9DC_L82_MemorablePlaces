@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6D4E3261C8DE53E00454481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E3251C8DE53E00454481 /* AppDelegate.swift */; };
+		F6D4E3281C8DE53E00454481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E3271C8DE53E00454481 /* ViewController.swift */; };
+		F6D4E32B1C8DE53E00454481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E3291C8DE53E00454481 /* Main.storyboard */; };
+		F6D4E32D1C8DE53E00454481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E32C1C8DE53E00454481 /* Assets.xcassets */; };
+		F6D4E3301C8DE53E00454481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E32E1C8DE53E00454481 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6D4E3221C8DE53E00454481 /* UCI9DC L82 Memorable Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCI9DC L82 Memorable Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D4E3251C8DE53E00454481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6D4E3271C8DE53E00454481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6D4E32A1C8DE53E00454481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6D4E32C1C8DE53E00454481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D4E32F1C8DE53E00454481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6D4E3311C8DE53E00454481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D4E31F1C8DE53E00454481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6D4E3191C8DE53E00454481 = {
+			isa = PBXGroup;
+			children = (
+				F6D4E3241C8DE53E00454481 /* UCI9DC L82 Memorable Places */,
+				F6D4E3231C8DE53E00454481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D4E3231C8DE53E00454481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4E3221C8DE53E00454481 /* UCI9DC L82 Memorable Places.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D4E3241C8DE53E00454481 /* UCI9DC L82 Memorable Places */ = {
+			isa = PBXGroup;
+			children = (
+				F6D4E3251C8DE53E00454481 /* AppDelegate.swift */,
+				F6D4E3271C8DE53E00454481 /* ViewController.swift */,
+				F6D4E3291C8DE53E00454481 /* Main.storyboard */,
+				F6D4E32C1C8DE53E00454481 /* Assets.xcassets */,
+				F6D4E32E1C8DE53E00454481 /* LaunchScreen.storyboard */,
+				F6D4E3311C8DE53E00454481 /* Info.plist */,
+			);
+			path = "UCI9DC L82 Memorable Places";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D4E3211C8DE53E00454481 /* UCI9DC L82 Memorable Places */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D4E3341C8DE53E00454481 /* Build configuration list for PBXNativeTarget "UCI9DC L82 Memorable Places" */;
+			buildPhases = (
+				F6D4E31E1C8DE53E00454481 /* Sources */,
+				F6D4E31F1C8DE53E00454481 /* Frameworks */,
+				F6D4E3201C8DE53E00454481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCI9DC L82 Memorable Places";
+			productName = "UCI9DC L82 Memorable Places";
+			productReference = F6D4E3221C8DE53E00454481 /* UCI9DC L82 Memorable Places.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D4E31A1C8DE53E00454481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stanislav Sidelnikov";
+				TargetAttributes = {
+					F6D4E3211C8DE53E00454481 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5C9TGFA48W;
+					};
+				};
+			};
+			buildConfigurationList = F6D4E31D1C8DE53E00454481 /* Build configuration list for PBXProject "UCI9DC L82 Memorable Places" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6D4E3191C8DE53E00454481;
+			productRefGroup = F6D4E3231C8DE53E00454481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D4E3211C8DE53E00454481 /* UCI9DC L82 Memorable Places */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D4E3201C8DE53E00454481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D4E3301C8DE53E00454481 /* LaunchScreen.storyboard in Resources */,
+				F6D4E32D1C8DE53E00454481 /* Assets.xcassets in Resources */,
+				F6D4E32B1C8DE53E00454481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D4E31E1C8DE53E00454481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D4E3281C8DE53E00454481 /* ViewController.swift in Sources */,
+				F6D4E3261C8DE53E00454481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6D4E3291C8DE53E00454481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D4E32A1C8DE53E00454481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D4E32E1C8DE53E00454481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D4E32F1C8DE53E00454481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6D4E3321C8DE53E00454481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6D4E3331C8DE53E00454481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D4E3351C8DE53E00454481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC L82 Memorable Places/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-L82-Memorable-Places";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6D4E3361C8DE53E00454481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC L82 Memorable Places/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-L82-Memorable-Places";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D4E31D1C8DE53E00454481 /* Build configuration list for PBXProject "UCI9DC L82 Memorable Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D4E3321C8DE53E00454481 /* Debug */,
+				F6D4E3331C8DE53E00454481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D4E3341C8DE53E00454481 /* Build configuration list for PBXNativeTarget "UCI9DC L82 Memorable Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D4E3351C8DE53E00454481 /* Debug */,
+				F6D4E3361C8DE53E00454481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D4E31A1C8DE53E00454481 /* Project object */;
+}
