@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6A7A2B81C902B5B00F3C412 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7A2B71C902B5B00F3C412 /* MapViewController.swift */; };
+		F6A7A2BA1C902C9000F3C412 /* PlacesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7A2B91C902C9000F3C412 /* PlacesTVC.swift */; };
+		F6A7A2BC1C902CCE00F3C412 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A7A2BB1C902CCE00F3C412 /* MapKit.framework */; };
+		F6A7A2BE1C902CE500F3C412 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A7A2BD1C902CE500F3C412 /* CoreLocation.framework */; };
 		F6D4E3261C8DE53E00454481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E3251C8DE53E00454481 /* AppDelegate.swift */; };
-		F6D4E3281C8DE53E00454481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4E3271C8DE53E00454481 /* ViewController.swift */; };
 		F6D4E32B1C8DE53E00454481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E3291C8DE53E00454481 /* Main.storyboard */; };
 		F6D4E32D1C8DE53E00454481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E32C1C8DE53E00454481 /* Assets.xcassets */; };
 		F6D4E3301C8DE53E00454481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D4E32E1C8DE53E00454481 /* LaunchScreen.storyboard */; };
+		F6F3FA6A1C92D9D200B94723 /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F3FA691C92D9D200B94723 /* PlacesManager.swift */; };
+		F6F3FA6C1C92E60500B94723 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F3FA6B1C92E60500B94723 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6A7A2B71C902B5B00F3C412 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F6A7A2B91C902C9000F3C412 /* PlacesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTVC.swift; sourceTree = "<group>"; };
+		F6A7A2BB1C902CCE00F3C412 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F6A7A2BD1C902CE500F3C412 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F6D4E3221C8DE53E00454481 /* UCI9DC L82 Memorable Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCI9DC L82 Memorable Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D4E3251C8DE53E00454481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D4E3271C8DE53E00454481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D4E32A1C8DE53E00454481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D4E32C1C8DE53E00454481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D4E32F1C8DE53E00454481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D4E3311C8DE53E00454481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F3FA691C92D9D200B94723 /* PlacesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
+		F6F3FA6B1C92E60500B94723 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A7A2BE1C902CE500F3C412 /* CoreLocation.framework in Frameworks */,
+				F6A7A2BC1C902CCE00F3C412 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +50,8 @@
 		F6D4E3191C8DE53E00454481 = {
 			isa = PBXGroup;
 			children = (
+				F6A7A2BD1C902CE500F3C412 /* CoreLocation.framework */,
+				F6A7A2BB1C902CCE00F3C412 /* MapKit.framework */,
 				F6D4E3241C8DE53E00454481 /* UCI9DC L82 Memorable Places */,
 				F6D4E3231C8DE53E00454481 /* Products */,
 			);
@@ -55,11 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				F6D4E3251C8DE53E00454481 /* AppDelegate.swift */,
-				F6D4E3271C8DE53E00454481 /* ViewController.swift */,
 				F6D4E3291C8DE53E00454481 /* Main.storyboard */,
+				F6A7A2B71C902B5B00F3C412 /* MapViewController.swift */,
+				F6A7A2B91C902C9000F3C412 /* PlacesTVC.swift */,
+				F6F3FA691C92D9D200B94723 /* PlacesManager.swift */,
 				F6D4E32C1C8DE53E00454481 /* Assets.xcassets */,
 				F6D4E32E1C8DE53E00454481 /* LaunchScreen.storyboard */,
 				F6D4E3311C8DE53E00454481 /* Info.plist */,
+				F6F3FA6B1C92E60500B94723 /* StringExtensions.swift */,
 			);
 			path = "UCI9DC L82 Memorable Places";
 			sourceTree = "<group>";
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D4E3281C8DE53E00454481 /* ViewController.swift in Sources */,
 				F6D4E3261C8DE53E00454481 /* AppDelegate.swift in Sources */,
+				F6F3FA6A1C92D9D200B94723 /* PlacesManager.swift in Sources */,
+				F6F3FA6C1C92E60500B94723 /* StringExtensions.swift in Sources */,
+				F6A7A2B81C902B5B00F3C412 /* MapViewController.swift in Sources */,
+				F6A7A2BA1C902C9000F3C412 /* PlacesTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				F6D4E3361C8DE53E00454481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
