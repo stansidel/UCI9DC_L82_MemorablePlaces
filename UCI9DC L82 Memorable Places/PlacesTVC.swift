@@ -102,6 +102,7 @@ class PlacesTVC: UITableViewController {
         // Pass the selected object to the new view controller.
         if let vc = segue.destinationViewController as? MapViewController {
             vc.places = placesManager.places
+            vc.delegate = self
             if segue.identifier == "showPlace" {
                 if let placeIndex = tableView.indexPathForSelectedRow?.row {
                     vc.selectedPlace = placesManager[placeIndex]
@@ -110,4 +111,11 @@ class PlacesTVC: UITableViewController {
         }
     }
 
+}
+
+extension PlacesTVC: MapViewControllerDelegate {
+    func placeAdded(place: Place) {
+        placesManager.append(place)
+        tableView.reloadData()
+    }
 }

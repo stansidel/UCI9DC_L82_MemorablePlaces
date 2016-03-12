@@ -9,8 +9,13 @@
 import UIKit
 import MapKit
 
+protocol MapViewControllerDelegate {
+    func placeAdded(place: Place)
+}
+
 class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
+    var delegate: MapViewControllerDelegate?
     var places: [Place]?
     var selectedPlace: Place?
     var touchedPlace: Place?
@@ -42,10 +47,7 @@ class MapViewController: UIViewController {
         }
 
         for place in places {
-            let annotation = MKPointAnnotation()
-            annotation.coordinate = CLLocationCoordinate2D(latitude: place.latitude, longitude: place.longitude)
-            annotation.title = place.name
-            mapView.addAnnotation(annotation)
+            addAnnotationForPlace(place)
         }
     }
 
@@ -81,17 +83,29 @@ class MapViewController: UIViewController {
                     if let latitude = pm.location?.coordinate.latitude, longitude = pm.location?.coordinate.longitude {
                         var name = "\(pm.subThoroughfare ?? "") \(pm.thoroughfare ?? "") \(pm.subLocality ?? "") \(pm.postalCode ?? ""), \(pm.subAdministrativeArea ?? ""), \(pm.country ?? "")"
                         name = name.condenseWhitespace().trim()
-                        self.touchedPlace = Place(name: name, latitude: latitude, longitude: longitude)
+                        let newPlace = Place(name: name, latitude: latitude, longitude: longitude)
+                        self.delegate?.placeAdded(newPlace)
                         dispatch_async(dispatch_get_main_queue()) {
-                            print("Performing segue")
-                            self.performSegueWithIdentifier("unwindSavePlace", sender: self)
+                            self.addAnnotationForPlace(newPlace)
                         }
+//                        self.touchedPlace = newPlace
+//                        dispatch_async(dispatch_get_main_queue()) {
+//                            print("Performing segue")
+//                            self.performSegueWithIdentifier("unwindSavePlace", sender: self)
+//                        }
                     }
                 } else {
                     print("No placemarks returned")
                 }
             })
         }
+    }
+    
+    private func addAnnotationForPlace(place: Place) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: place.latitude, longitude: place.longitude)
+        annotation.title = place.name
+        mapView.addAnnotation(annotation)
     }
 
     /*
